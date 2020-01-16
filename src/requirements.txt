@@ -9,7 +9,7 @@ constantly==15.1.0
 docker-py==1.10.3
 docker-pycreds==0.2.1
 #doom-py==0.0.15
--e https://github.com/xakiru/doom-py.git@050b27adcfcd0fbb57ab5eb50f37cf8fee6ed25d#egg=doom-py
+-e git+https://github.com/xakiru/doom-py.git@050b27adcfcd0fbb57ab5eb50f37cf8fee6ed25d#egg=doom-py
 fastzbarlight==0.0.14
 funcsigs==1.0.2
 -e git+https://github.com/openai/go-vncdriver.git@33bd0dd9620e97acd9b4e559bca217df09ba89e6#egg=go_vncdriver
@@ -33,7 +33,7 @@ PyYAML==3.12
 requests>=2.20.0
 scipy==0.19.1
 six==1.10.0
-tensorflow==0.12.1
+tensorflow==0.12.0rc1
 Twisted==17.5.0
 txaio==2.8.0
 ujson==1.35
