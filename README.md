@@ -33,6 +33,12 @@ This is a tensorflow based implementation for our [ICML 2017 paper on curiosity-
   pip install numpy
   pip install -r src/requirements.txt
   python curiosity/src/go-vncdriver/build.py
+  cd curiosity/src/go-vncdriver/
+  pip install -e .
+  cd curiosity/src/doom-py/
+  python setup.py build
+  pip install -e .
+
 
   # download models
   bash models/download_models.sh
@@ -40,6 +46,9 @@ This is a tensorflow based implementation for our [ICML 2017 paper on curiosity-
   # setup customized doom environment
   cd doomFiles/
   # then follow commands in doomFiles/README.md
+
+  #check tf version
+  python -c 'import tensorflow as tf; print(tf.__version__)' 
   ```
 
 2. Running demo
